@@ -14,13 +14,12 @@ const Navbar = () => {
             className="sm:w-20 md:w-24 lg:w-28 xl:w-32"
           />
         </Link>
-        <ul>
+
+        <ul className="flex gap-5">
           <NavLink
             to={"/"}
             className={({ isActive }) =>
-              isActive
-                ? "isActive"
-                : "text-white sm:px-2 md:px-3 lg:px-4 xl:px-5"
+              isActive ? "isActive" : "text-white "
             }
           >
             Marketplace
@@ -28,9 +27,7 @@ const Navbar = () => {
           <NavLink
             to={"/stats"}
             className={({ isActive }) =>
-              isActive
-                ? "isActive"
-                : "text-white sm:px-2 md:px-3 lg:px-4 xl:px-5"
+              isActive ? "isActive" : "text-white "
             }
           >
             Stats
@@ -38,9 +35,7 @@ const Navbar = () => {
           <NavLink
             to={"/collections"}
             className={({ isActive }) =>
-              isActive
-                ? "isActive"
-                : "text-white sm:px-2 md:px-3 lg:px-4 xl:px-5"
+              isActive ? "isActive" : "text-white "
             }
           >
             Collections
@@ -48,9 +43,7 @@ const Navbar = () => {
           <NavLink
             to={"/explore"}
             className={({ isActive }) =>
-              isActive
-                ? "isActive"
-                : "text-white sm:px-2 md:px-3 lg:px-4 xl:px-5"
+              isActive ? "isActive" : "text-white "
             }
           >
             Explore
@@ -58,9 +51,7 @@ const Navbar = () => {
           <NavLink
             to={"/community"}
             className={({ isActive }) =>
-              isActive
-                ? "isActive"
-                : "text-white sm:px-2 md:px-3 lg:px-4 xl:px-5"
+              isActive ? "isActive" : "text-white "
             }
           >
             Community
