@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from "../components/Footer";
 import Navigation from "../navigations/Navigation";
+import { Footer, HeroSection } from "../components";
 
 const MarketPlace = () => {
   return (
@@ -8,12 +8,17 @@ const MarketPlace = () => {
       <div className="bg-black">
         <div>
           {/* Navbar */}
-          {/* <Navigation /> */}
+          <Navigation />
+        </div>
+
+        <div className="px-10 sm:px-10 md:px-12 lg:px-20 xl:px-24 pt-32">
+          {/* Hero Section */}
+          <HeroSection />
         </div>
 
         <div>
           {/* Footer */}
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </div>
     </>

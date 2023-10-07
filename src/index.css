@@ -12,3 +12,20 @@
   color: transparent;
   padding: 0 20px;
 }
+
+.trapezoid_button {
+  background: linear-gradient(90deg, #c1260f 0.34%, #ee642a 96.66%);
+  padding: 20px 50px;
+  transform: perspective(100px) rotateX(-18deg) translateZ(4px) translateY(4px);
+  -webkit-backface-visibility: hidden;
+}
+
+.btn_text {
+  font-size: 28px;
+  transform: perspective(0px) rotateX(0) translateZ(0px) translateY(0px);
+}
+
+.swiper-pagination-bullet-active {
+  width: 15px !important;
+  height: 15px !important;
+}
