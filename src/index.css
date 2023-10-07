@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gradient {
+  background: linear-gradient(90deg, #c1260f 0.34%, #ee642a 96.66%);
+}
+
+.isActive {
+  background: linear-gradient(90deg, #c1260f 0.34%, #ee642a 96.66%);
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 0 20px;
+}

@@ -1,9 +1,12 @@
 import React from "react";
+import Navigation from "../navigations/Navigation";
 
 const MarketPlace = () => {
   return (
     <>
-      <h1>Market Place</h1>
+      <div className="bg-black">
+        <Navigation />
+      </div>
     </>
   );
 };
