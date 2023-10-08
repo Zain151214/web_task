@@ -15,18 +15,16 @@ const Accordian = ({ items }) => {
             <div className="mb-5">
               <div
                 key={index}
+                onClick={() => {
+                  handleIndex(index);
+                }}
                 className={`${
                   index === activeIndex
                     ? "bg-[#182225] border border-white"
                     : "bg-black"
-                } border-b w-full p-4 text-white`}
+                } border-b w-full p-4 text-white cursor-pointer`}
               >
-                <div
-                  onClick={() => {
-                    handleIndex(index);
-                  }}
-                  className="cursor-pointer flex gap-2 items-center"
-                >
+                <div className=" flex gap-2 items-center">
                   <img
                     src={
                       index === activeIndex

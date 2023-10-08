@@ -2,6 +2,7 @@ import Button from "./Button";
 import Footer from "./Footer";
 import PlayCards from "./PlayCards";
 import Accordian from "./Accordian";
+import Testimonial from "./Testimonial";
 import HeroSection from "./HeroSection";
 import TrapezoidBtn from "./TrapezoidBtn";
 import AccordianSection from "./AccordianSection";
@@ -13,5 +14,6 @@ export {
   TrapezoidBtn,
   PlayCards,
   Accordian,
+  Testimonial,
   AccordianSection,
 };

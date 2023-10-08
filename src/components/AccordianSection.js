@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 import Accordian from "./Accordian";
 import { Graphics } from "../assets";
 import { ACCORDIAN_DATA } from "../utils/mock";
@@ -12,7 +13,7 @@ const AccordianSection = () => {
             <img src={Graphics.Crown} alt="Crown" className="w-20" />
 
             <h1 className="text-center text-white text-xl sm:text-[2rem] md:text-[3rem] md:leading-[3rem] lg:text-[4rem] lg:leading-[4rem] xl:text-[5rem] xl:leading-[5rem] uppercase">
-              THE Most recent Patterns, Conveyed Directly TO YOUR INBOX.
+              THE Most recent Patterns, Conveyed Directly TO YOUR INBOX
             </h1>
           </div>
         </div>
@@ -23,6 +24,14 @@ const AccordianSection = () => {
           </div>
           <div className="w-full md:w-2/4">
             <Accordian items={ACCORDIAN_DATA} />
+            <div className="flex">
+              <div>
+                <Button title={"Play Now"} />
+              </div>
+              <div>
+                <Button title={"Watch Trailer"} watchBtn />
+              </div>
+            </div>
           </div>
         </div>
       </div>

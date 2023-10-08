@@ -2,6 +2,8 @@ import Logo from "./icons/Logo.png";
 import Bars from "./icons/Bars.png";
 import Crown from "./icons/Crown.png";
 import Cross from "./icons/Cross.png";
+import Quote from "./icons/Cotes.png";
+import Stars from "./icons/Stars.png";
 import Flower from "./icons/Flower.png";
 import Logo_1 from "./icons/Logo_1.png";
 import Logo_2 from "./icons/Logo_2.png";
@@ -14,8 +16,12 @@ import Twitter from "./icons/Twitter.png";
 import Linkedin from "./icons/Linkedin.png";
 import Facebook from "./icons/Facebook.png";
 import Arrow_Up from "./icons/Arrow_Up.png";
+import Person_1 from "./images/Person_1.png";
+import Person_2 from "./images/Person_2.png";
+import Person_3 from "./images/Person_3.png";
 import Instagram from "./icons/Instagram.png";
 import Btn_Black from "./icons/Btn_Black.png";
+import Slider_BG from "./images/Slider_BG.png";
 import Btn_Orange from "./icons/Btn_Orange.png";
 import Arrow_Down from "./icons/Arrow_Down.png";
 import Mobile_Logo from "./icons/Mobile_Logo.png";
@@ -46,6 +52,12 @@ export const Graphics = {
   Accordian_Image,
   Arrow_Up,
   Arrow_Down,
+  Quote,
+  Slider_BG,
+  Stars,
+  Person_1,
+  Person_2,
+  Person_3,
   White_Logo_Strip,
   Black_Logo_Strip,
 };

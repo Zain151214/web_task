@@ -23,3 +23,10 @@
   width: 10px !important;
   height: 10px !important;
 }
+
+.bg_img {
+  background-image: url("./assets/images/Slider_BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
