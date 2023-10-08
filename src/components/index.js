@@ -4,6 +4,7 @@ import PlayCards from "./PlayCards";
 import Accordian from "./Accordian";
 import Testimonial from "./Testimonial";
 import HeroSection from "./HeroSection";
+import AwardSection from "./AwardSection";
 import TrapezoidBtn from "./TrapezoidBtn";
 import AccordianSection from "./AccordianSection";
 
@@ -15,5 +16,6 @@ export {
   PlayCards,
   Accordian,
   Testimonial,
+  AwardSection,
   AccordianSection,
 };

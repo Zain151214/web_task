@@ -2,6 +2,7 @@ import React from "react";
 import Navigation from "../navigations/Navigation";
 import {
   AccordianSection,
+  AwardSection,
   Footer,
   HeroSection,
   Testimonial,
@@ -21,9 +22,12 @@ const MarketPlace = () => {
           <HeroSection />
         </div>
 
-        <div className="px-10 sm:px-10 md:px-12 lg:px-20 xl:px-24 py-14">
+        <div className="px-10 sm:px-10 md:px-12 lg:px-20 xl:px-24 py-14 flex flex-col gap-10">
           {/* Accordian Section */}
           <AccordianSection />
+
+          {/* Award Winning Section */}
+          <AwardSection />
         </div>
 
         <div>

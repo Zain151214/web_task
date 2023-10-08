@@ -82,3 +82,139 @@ export const TESTIMONIAL_DATA = [
     name: "Cody Fisher",
   },
 ];
+
+export const GAMES_DATA = [
+  {
+    id: 1,
+    image: Graphics.G_1,
+    category: "Adventure",
+  },
+  {
+    id: 2,
+    image: Graphics.G_2,
+    category: "Adventure",
+  },
+  {
+    id: 3,
+    image: Graphics.G_3,
+    category: "Adventure",
+  },
+  {
+    id: 4,
+    image: Graphics.G_4,
+    category: "Adventure",
+  },
+  {
+    id: 5,
+    image: Graphics.G_2,
+    category: "Arcade",
+  },
+  {
+    id: 6,
+    image: Graphics.G_3,
+    category: "Arcade",
+  },
+  {
+    id: 7,
+    image: Graphics.G_4,
+    category: "Arcade",
+  },
+  {
+    id: 8,
+    image: Graphics.G_1,
+    category: "Arcade",
+  },
+  {
+    id: 9,
+    image: Graphics.G_3,
+    category: "Arena",
+  },
+  {
+    id: 10,
+    image: Graphics.G_4,
+    category: "Arena",
+  },
+  {
+    id: 11,
+    image: Graphics.G_1,
+    category: "Arena",
+  },
+  {
+    id: 12,
+    image: Graphics.G_2,
+    category: "Arena",
+  },
+  {
+    id: 13,
+    image: Graphics.G_1,
+    category: "Avoider",
+  },
+  {
+    id: 14,
+    image: Graphics.G_3,
+    category: "Avoider",
+  },
+  {
+    id: 15,
+    image: Graphics.G_4,
+    category: "Avoider",
+  },
+
+  {
+    id: 16,
+    image: Graphics.G_2,
+    category: "Avoider",
+  },
+  {
+    id: 17,
+    image: Graphics.G_3,
+    category: "Balance",
+  },
+  {
+    id: 18,
+    image: Graphics.G_2,
+    category: "Balance",
+  },
+  {
+    id: 19,
+    image: Graphics.G_4,
+    category: "Balance",
+  },
+  {
+    id: 20,
+    image: Graphics.G_1,
+    category: "Balance",
+  },
+];
+
+export const GAME_BUTTONS = [
+  {
+    id: 1,
+    btn: "Adventure",
+    category: "Adventure",
+  },
+
+  {
+    id: 2,
+    btn: "Arcade",
+    category: "Arcade",
+  },
+
+  {
+    id: 3,
+    btn: "Arena",
+    category: "Arena",
+  },
+
+  {
+    id: 4,
+    btn: "Avoider",
+    category: "Avoider",
+  },
+
+  {
+    id: 5,
+    btn: "Balance",
+    category: "Balance",
+  },
+];

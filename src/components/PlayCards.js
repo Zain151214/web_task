@@ -9,9 +9,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const Slider_Data = [
-  { id: 1, image: Graphics.Game_1 },
-  { id: 2, image: Graphics.Game_2 },
-  { id: 3, image: Graphics.Game_3 },
+  { id: 1, image: Graphics.Game_3 },
+  { id: 2, image: Graphics.Game_1 },
+  { id: 3, image: Graphics.Game_2 },
 ];
 
 const PlayCards = () => {
@@ -26,6 +26,8 @@ const PlayCards = () => {
       getWindowsDimenshions();
       window.addEventListener("resize", getWindowsDimenshions);
     }
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const isMobile = width < 640;

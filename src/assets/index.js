@@ -1,3 +1,7 @@
+import G_1 from "./images/G_1.png";
+import G_2 from "./images/G_2.png";
+import G_3 from "./images/G_3.png";
+import G_4 from "./images/G_4.png";
 import Logo from "./icons/Logo.png";
 import Bars from "./icons/Bars.png";
 import Crown from "./icons/Crown.png";
@@ -47,6 +51,10 @@ export const Graphics = {
   Game_1,
   Game_2,
   Game_3,
+  G_1,
+  G_2,
+  G_3,
+  G_4,
   Btn_Orange,
   Btn_Black,
   Accordian_Image,
