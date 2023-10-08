@@ -13,7 +13,11 @@ import Twitter from "./icons/Twitter.png";
 import Linkedin from "./icons/Linkedin.png";
 import Facebook from "./icons/Facebook.png";
 import Instagram from "./icons/Instagram.png";
+import Btn_Black from "./icons/Btn_Black.png";
+import Btn_Orange from "./icons/Btn_Orange.png";
 import Mobile_Logo from "./icons/Mobile_Logo.png";
+import White_Logo_Strip from "./icons/Logo_Strip_1.png";
+import Black_Logo_Strip from "./icons/Logo_Strip_2.png";
 
 export const Graphics = {
   Logo,
@@ -32,4 +36,8 @@ export const Graphics = {
   Game_1,
   Game_2,
   Game_3,
+  Btn_Orange,
+  Btn_Black,
+  White_Logo_Strip,
+  Black_Logo_Strip,
 };
