@@ -9,13 +9,13 @@ const HeroSection = () => {
       <div className="flex flex-col gap-20">
         {/* Main Heading */}
         <div className="flex justify-center">
-          <div className="w-2/3">
+          <div className="w-3/4">
             <img
               src={Graphics.Flower}
               alt="flower"
               className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24"
             />
-            <h1 className="text-center text-white text-xl sm:text-[2rem] md:text-[3rem] md:leading-[3rem] lg:text-[4rem] lg:leading-[4rem] xl:text-[5rem] xl:leading-[5rem] ">
+            <h1 className="text-center text-white text-xl sm:text-[2rem] md:text-[3rem] md:leading-[3rem] lg:text-[4rem] lg:leading-[4rem] xl:text-[5rem] xl:leading-[5rem] uppercase">
               Next Generation Get Your Desierd Rank Now
             </h1>
           </div>
@@ -32,12 +32,12 @@ const HeroSection = () => {
           <div className="xl:w-[30rem] h-40 md:h-80 absolute z-10 flex flex-col items-center">
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/uV13Myyoee0?si=EDF2uzWNalwxEAsM"
+              src="https://www.youtube.com/embed/vKBGMgcXVZE?si=0_UW15X7fWm59gRP"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
-            ></iframe>
+            />
             <TrapezoidBtn title={"Register Now"} />
           </div>
         </div>
