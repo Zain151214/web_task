@@ -30,3 +30,11 @@
   background-size: cover;
   background-position: center;
 }
+
+.font_bebas {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.font_nunito {
+  font-family: "Nunito Sans", sans-serif;
+}

@@ -12,7 +12,7 @@ const AccordianSection = () => {
           <div className="w-full flex flex-col items-center gap-5">
             <img src={Graphics.Crown} alt="Crown" className="w-20" />
 
-            <h1 className="text-center text-white text-xl sm:text-[2rem] md:text-[3rem] md:leading-[3rem] lg:text-[4rem] lg:leading-[4rem] xl:text-[5rem] xl:leading-[5rem] uppercase">
+            <h1 className="font_bebas text-center text-white text-3xl sm:text-[3.3rem] sm:leading-[3rem] md:text-[4.3rem] md:leading-[4rem] lg:text-[5.3rem] lg:leading-[5rem] xl:text-[6.3rem] xl:leading-[6rem] uppercase">
               THE Most recent Patterns, Conveyed Directly TO YOUR INBOX
             </h1>
           </div>

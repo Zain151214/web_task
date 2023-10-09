@@ -12,7 +12,7 @@ const Accordian = ({ items }) => {
       {items.map((item, index) => {
         return (
           <>
-            <div className="mb-5">
+            <div className="mb-5 font_nunito">
               <div
                 key={index}
                 onClick={() => {
@@ -22,9 +22,9 @@ const Accordian = ({ items }) => {
                   index === activeIndex
                     ? "bg-[#182225] border border-white"
                     : "bg-black"
-                } border-b w-full p-4 text-white cursor-pointer`}
+                } border-b w-full p-4 text-white cursor-pointer font_nunito`}
               >
-                <div className=" flex gap-2 items-center">
+                <div className="flex gap-2 items-center">
                   <img
                     src={
                       index === activeIndex
