@@ -19,9 +19,9 @@ const Video = () => {
             className="w-full h-full"
             src="https://www.youtube.com/embed/vKBGMgcXVZE?si=0_UW15X7fWm59gRP"
             title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+            allowFullScreen
           />
 
           <TrapezoidBtn title={"Register Now"} />
