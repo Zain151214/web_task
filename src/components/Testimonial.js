@@ -12,7 +12,7 @@ import { TESTIMONIAL_DATA } from "../utils/mock";
 const Testimonial = () => {
   return (
     <>
-      <div>
+      <div className="my-10">
         <div className="flex justify-center items-center">
           <div className="w-full flex flex-col items-center gap-5">
             <img src={Graphics.Crown} alt="Crown" className="w-20" />
@@ -23,10 +23,10 @@ const Testimonial = () => {
           </div>
         </div>
 
-        <div className="text-white mt-10 px-10">
+        <div className="text-white mt-10 px-3">
           <Swiper
             breakpoints={{
-              320: { slidesPerView: 1 },
+              440: { slidesPerView: 1 },
               600: { slidesPerView: 2 },
               768: { slidesPerView: 3 },
             }}
@@ -58,11 +58,15 @@ const Testimonial = () => {
                       <img
                         src={Graphics.Quote}
                         alt="Quote"
-                        className="absolute top-0 right-10 w-10"
+                        className="absolute top-0 right-4 sm:right-2 md:right-4 lg:right-6 xl:right-10 w-10"
                       />
 
                       <div className="flex flex-col justify-center items-center gap-5 text-center">
-                        <img src={Graphics.Stars} alt="stars" />
+                        <img
+                          src={Graphics.Stars}
+                          alt="stars"
+                          className="w-16 sm:w-18 md:w-16 lg:w-20 xl:w-28"
+                        />
                         <p>{item.content_1}</p>
 
                         <p>{item.content_2}</p>

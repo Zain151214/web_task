@@ -7,7 +7,7 @@ import { ACCORDIAN_DATA } from "../utils/mock";
 const AccordianSection = () => {
   return (
     <>
-      <div>
+      <div className="my-10">
         <div className="flex justify-center items-center">
           <div className="w-full flex flex-col items-center gap-5">
             <img src={Graphics.Crown} alt="Crown" className="w-20" />
@@ -18,13 +18,13 @@ const AccordianSection = () => {
           </div>
         </div>
 
-        <div className="flex justify-between items-center flex-wrap">
+        <div className="flex justify-center sm:justify-between items-center flex-wrap">
           <div className="w-full md:w-2/4">
             <img src={Graphics.Accordian_Image} alt="img" />
           </div>
           <div className="w-full md:w-2/4">
             <Accordian items={ACCORDIAN_DATA} />
-            <div className="flex">
+            <div className="flex w-full">
               <div>
                 <Button title={"Play Now"} />
               </div>

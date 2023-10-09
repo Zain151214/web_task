@@ -44,7 +44,7 @@ const PlayCards = () => {
               delay: 2000,
             }}
             modules={[Pagination, Autoplay]}
-            className="mySwiper w-full"
+            className="mySwiper w-full "
             style={{
               "--swiper-pagination-color":
                 "linear-gradient(90deg, #c1260f 0.34%, #ee642a 96.66%)",
@@ -56,7 +56,7 @@ const PlayCards = () => {
             {Slider_Data.map((item) => {
               return (
                 <>
-                  <SwiperSlide className="text-white">
+                  <SwiperSlide className="text-white px-3">
                     <div
                       key={item.id}
                       className="flex flex-col justify-center items-center mb-16 relative"
@@ -74,7 +74,7 @@ const PlayCards = () => {
         </>
       ) : (
         <>
-          <div className="flex justify-center items-center flex-wrap gap-5">
+          <div className="flex justify-center items-center flex-wrap gap-5 px-2">
             {Slider_Data.map((item) => {
               return (
                 <>

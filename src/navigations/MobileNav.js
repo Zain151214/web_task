@@ -26,9 +26,9 @@ const MobileNav = () => {
         <div>
           {activeNav && (
             <>
-              <div className="bg-black min-h-screen w-[50%] absolute top-0 right-0 py-5">
+              <div className="bg-black min-h-screen w-[55%] absolute top-0 right-0 py-5">
                 <div className="pl-3 mt-5">
-                  <div className="pl-5 pb-5">
+                  <div className="pb-5">
                     <img
                       src={Graphics.Cross}
                       alt="Cross"
@@ -40,7 +40,7 @@ const MobileNav = () => {
                     <NavLink
                       to={"/"}
                       className={({ isActive }) =>
-                        isActive ? "isActive" : "text-white  pl-5"
+                        isActive ? "isActive" : "text-white"
                       }
                     >
                       Marketplace
@@ -48,7 +48,7 @@ const MobileNav = () => {
                     <NavLink
                       to={"/stats"}
                       className={({ isActive }) =>
-                        isActive ? "isActive" : "text-white pl-5"
+                        isActive ? "isActive" : "text-white"
                       }
                     >
                       Stats
@@ -56,7 +56,7 @@ const MobileNav = () => {
                     <NavLink
                       to={"/collections"}
                       className={({ isActive }) =>
-                        isActive ? "isActive" : "text-white pl-5"
+                        isActive ? "isActive" : "text-white"
                       }
                     >
                       Collections
@@ -64,7 +64,7 @@ const MobileNav = () => {
                     <NavLink
                       to={"/explore"}
                       className={({ isActive }) =>
-                        isActive ? "isActive" : "text-white pl-5"
+                        isActive ? "isActive" : "text-white"
                       }
                     >
                       Explore
@@ -72,7 +72,7 @@ const MobileNav = () => {
                     <NavLink
                       to={"/community"}
                       className={({ isActive }) =>
-                        isActive ? "isActive" : "text-white pl-5"
+                        isActive ? "isActive" : "text-white"
                       }
                     >
                       Community

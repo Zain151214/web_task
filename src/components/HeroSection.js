@@ -29,7 +29,7 @@ const HeroSection = () => {
           <div>
             <img src={Graphics.White_Logo_Strip} alt="Logos" />
           </div>
-          <div className="xl:w-[30rem] h-40 md:h-80 absolute z-10 flex flex-col items-center">
+          <div className="sm:w-[25rem] md:w-[28rem] lg:w-[30rem] xl:w-[35rem] h-40 md:h-80 absolute z-10 flex flex-col items-center">
             <iframe
               className="w-full h-full"
               src="https://www.youtube.com/embed/vKBGMgcXVZE?si=0_UW15X7fWm59gRP"

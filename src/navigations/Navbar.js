@@ -15,7 +15,7 @@ const Navbar = () => {
           />
         </Link>
 
-        <ul className="flex gap-5">
+        <ul className="flex sm:gap-3 md:gap-5">
           <NavLink
             to={"/"}
             className={({ isActive }) =>

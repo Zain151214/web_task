@@ -12,7 +12,7 @@ const Button = ({ title, route, watchBtn }) => {
             alt="btn"
           />
           <h3
-            className={`text-xs md:text-sm xl:text-base font-bold text-white absolute top-3 sm:top-2 w-full text-center ${
+            className={`text-xs md:text-sm xl:text-base font-bold text-white absolute top-3 md:top-2 w-full text-center ${
               watchBtn && "left-3"
             }`}
           >

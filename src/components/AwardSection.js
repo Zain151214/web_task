@@ -24,7 +24,7 @@ const AwardSection = () => {
         <h1 className="w-3/4 font_bebas text-center text-white text-3xl sm:text-[3.3rem] sm:leading-[3rem] md:text-[4.3rem] md:leading-[4rem] lg:text-[5.3rem] lg:leading-[5rem] xl:text-[6.3rem] xl:leading-[6rem] uppercase">
           we’re the first gaming award winners the world
         </h1>
-        <div className="flex gap-5 flex-wrap">
+        <div className="flex gap-5 flex-wrap py-5">
           {GAME_BUTTONS.map((item) => {
             return (
               <>
@@ -61,12 +61,16 @@ const AwardSection = () => {
         </div>
       </div>
 
-      <div className="font_nunito flex justify-center items-center">
-        <div className="flex justify-between items-center text-white w-2/4">
-          <div>
-            <p className="text-xl font-extralight">We’ve have many more than</p>
+      <div className="flex justify-center items-center">
+        <div className="flex justify-between items-center text-white w-full md:w-2/4">
+          <div className="font_nunito">
+            <p className="text-xs sm:text-sm md:text-xl font-extralight">
+              We’ve have many more than
+            </p>
             <h1 className="text-3xl font-bold font_bebas">100+</h1>
-            Gaming <span className="isActive">Collections</span>
+            <p className="text-xs sm:text-sm md:text-lg">
+              Gaming <span className="isActive">Collections</span>
+            </p>
           </div>
 
           <div>

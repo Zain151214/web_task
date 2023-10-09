@@ -19,7 +19,7 @@ const MarketPlace = () => {
           <HeroSection />
         </div>
 
-        <div className="px-10 sm:px-10 md:px-12 lg:px-20 xl:px-24 py-14 flex flex-col gap-10">
+        <div className="px-3 sm:px-10 md:px-12 lg:px-20 xl:px-24 py-14 flex flex-col gap-10">
           <AccordianSection />
 
           <AwardSection />
