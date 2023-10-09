@@ -1,5 +1,6 @@
 import React from "react";
 import { Graphics } from "../assets";
+import SocialLinks from "./SocialLinks";
 import { Link, NavLink } from "react-router-dom";
 
 const Footer = () => {
@@ -19,24 +20,28 @@ const Footer = () => {
               <NavLink to={"/"} className="text-[12px] md:text-base text-white">
                 Marketplace
               </NavLink>
+
               <NavLink
                 to={"/stats"}
                 className="text-[12px] md:text-base text-white"
               >
                 Stats
               </NavLink>
+
               <NavLink
                 to={"/collections"}
                 className="text-[12px] md:text-base text-white"
               >
                 Collections
               </NavLink>
+
               <NavLink
                 to={"/explore"}
                 className="text-[12px] md:text-base text-white"
               >
                 Explore
               </NavLink>
+
               <NavLink
                 to={"/community"}
                 className="text-[12px] md:text-base text-white"
@@ -46,20 +51,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="flex gap-5 order-1 sm:order-2">
-            <Link to={"https://linkedin.com/"} target="_blank">
-              <img src={Graphics.Linkedin} alt="Linkedin" />
-            </Link>
-            <Link to={"https://www.facebook.com/"} target="_blank">
-              <img src={Graphics.Facebook} alt="Facebook" />
-            </Link>
-            <Link to={"https://twitter.com/"} target="_blank">
-              <img src={Graphics.Twitter} alt="Twitter" />
-            </Link>
-            <Link to={"https://www.instagram.com/"} target="_blank">
-              <img src={Graphics.Instagram} alt="Instagram" />
-            </Link>
-          </div>
+          <SocialLinks />
         </div>
 
         <div className="bg-[#1E293B] h-[1px] my-8" />

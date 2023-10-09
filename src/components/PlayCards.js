@@ -62,6 +62,7 @@ const PlayCards = () => {
                       className="flex flex-col justify-center items-center mb-16 relative"
                     >
                       <img src={item.image} alt="Game_1" />
+
                       <div className="absolute bottom-[-20px]">
                         <TrapezoidBtn title={"Play Now"} />
                       </div>
@@ -83,6 +84,7 @@ const PlayCards = () => {
                     className="flex flex-col mb-5 justify-center items-center relative"
                   >
                     <img src={item.image} alt="Game_1" />
+
                     <div className="absolute bottom-[-20px]">
                       <TrapezoidBtn title={"Play Now"} />
                     </div>

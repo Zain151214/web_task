@@ -6,7 +6,8 @@ const TrapezoidBtn = ({ route, title }) => {
     <>
       <div className="relative w-52">
         <Link to={route}>
-          <button className="trapezoid_button w-full"></button>
+          <button className="trapezoid_button w-full" />
+
           <span className="font_bebas text-2xl sm:text-3xl absolute top-2 left-0 text-center w-full text-white">
             {title}
           </span>

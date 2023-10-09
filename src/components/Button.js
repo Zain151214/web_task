@@ -11,6 +11,7 @@ const Button = ({ title, route, watchBtn }) => {
             src={watchBtn ? Graphics.Btn_Black : Graphics.Btn_Orange}
             alt="btn"
           />
+
           <h3
             className={`text-xs md:text-sm xl:text-base font-bold text-white absolute top-3 md:top-2 w-full text-center ${
               watchBtn && "left-3"

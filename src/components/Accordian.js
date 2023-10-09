@@ -7,6 +7,7 @@ const Accordian = ({ items }) => {
   const handleIndex = (index) => {
     setActiveIndex(index === activeIndex ? -1 : index);
   };
+
   return (
     <>
       {items.map((item, index) => {
@@ -54,9 +55,3 @@ const Accordian = ({ items }) => {
 };
 
 export default Accordian;
-
-// {index === activeIndex && (
-//   <>
-//     <p>{item.content}</p>
-//   </>
-// )}

@@ -8,6 +8,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import { TESTIMONIAL_DATA } from "../utils/mock";
+import Heading from "./Heading";
 
 const Testimonial = () => {
   return (
@@ -17,9 +18,7 @@ const Testimonial = () => {
           <div className="w-full flex flex-col items-center gap-5">
             <img src={Graphics.Crown} alt="Crown" className="w-20" />
 
-            <h1 className="font_bebas text-center text-white text-3xl sm:text-[3.3rem] sm:leading-[3rem] md:text-[4.3rem] md:leading-[4rem] lg:text-[5.3rem] lg:leading-[5rem] xl:text-[6.3rem] xl:leading-[6rem] uppercase">
-              Happy Clients
-            </h1>
+            <Heading heading={"Happy Clients"} />
           </div>
         </div>
 
@@ -67,6 +66,7 @@ const Testimonial = () => {
                           alt="stars"
                           className="w-16 sm:w-18 md:w-16 lg:w-20 xl:w-28"
                         />
+
                         <p>{item.content_1}</p>
 
                         <p>{item.content_2}</p>
@@ -76,6 +76,7 @@ const Testimonial = () => {
                           alt="Person"
                           className="w-[46px] h-[46px]"
                         />
+
                         <h1>{item.name}</h1>
                       </div>
                     </div>

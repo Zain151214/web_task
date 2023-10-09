@@ -1,5 +1,4 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
 import {
   Collections,
   Community,
@@ -8,17 +7,18 @@ import {
   Register,
   Stats,
 } from "./pages";
+import { Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<MarketPlace />} />
         <Route path="/stats" element={<Stats />} />
-        <Route path="/collections" element={<Collections />} />
+        <Route path="/" element={<MarketPlace />} />
         <Route path="/explore" element={<Explore />} />
-        <Route path="/community" element={<Community />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/community" element={<Community />} />
+        <Route path="/collections" element={<Collections />} />
       </Routes>
     </>
   );

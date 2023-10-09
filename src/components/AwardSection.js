@@ -1,4 +1,4 @@
-import { Button } from "../components";
+import { Button, Heading } from "../components";
 import React, { useEffect, useState } from "react";
 import { GAMES_DATA, GAME_BUTTONS } from "../utils/mock";
 
@@ -21,9 +21,10 @@ const AwardSection = () => {
   return (
     <>
       <div>
-        <h1 className="w-3/4 font_bebas text-center text-white text-3xl sm:text-[3.3rem] sm:leading-[3rem] md:text-[4.3rem] md:leading-[4rem] lg:text-[5.3rem] lg:leading-[5rem] xl:text-[6.3rem] xl:leading-[6rem] uppercase">
-          we’re the first gaming award winners the world
-        </h1>
+        <div className="w-3/4 ">
+          <Heading heading={"we’re the first gaming award winners the world"} />
+        </div>
+
         <div className="flex gap-5 flex-wrap py-5">
           {GAME_BUTTONS.map((item) => {
             return (
@@ -67,7 +68,9 @@ const AwardSection = () => {
             <p className="text-xs sm:text-sm md:text-xl font-extralight">
               We’ve have many more than
             </p>
+
             <h1 className="text-3xl font-bold font_bebas">100+</h1>
+
             <p className="text-xs sm:text-sm md:text-lg">
               Gaming <span className="isActive">Collections</span>
             </p>

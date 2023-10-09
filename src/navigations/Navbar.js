@@ -24,6 +24,7 @@ const Navbar = () => {
           >
             Marketplace
           </NavLink>
+
           <NavLink
             to={"/stats"}
             className={({ isActive }) =>
@@ -32,6 +33,7 @@ const Navbar = () => {
           >
             Stats
           </NavLink>
+
           <NavLink
             to={"/collections"}
             className={({ isActive }) =>
@@ -40,6 +42,7 @@ const Navbar = () => {
           >
             Collections
           </NavLink>
+
           <NavLink
             to={"/explore"}
             className={({ isActive }) =>
@@ -48,6 +51,7 @@ const Navbar = () => {
           >
             Explore
           </NavLink>
+
           <NavLink
             to={"/community"}
             className={({ isActive }) =>
@@ -57,6 +61,7 @@ const Navbar = () => {
             Community
           </NavLink>
         </ul>
+
         <Button title={"Register"} route={"/register"} />
       </div>
     </>

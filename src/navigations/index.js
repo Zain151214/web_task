@@ -1,4 +1,4 @@
-import MobileNav from "./MobileNav";
 import Navbar from "./Navbar";
+import MobileNav from "./MobileNav";
 
 export { MobileNav, Navbar };

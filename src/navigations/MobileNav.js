@@ -45,6 +45,7 @@ const MobileNav = () => {
                     >
                       Marketplace
                     </NavLink>
+
                     <NavLink
                       to={"/stats"}
                       className={({ isActive }) =>
@@ -53,6 +54,7 @@ const MobileNav = () => {
                     >
                       Stats
                     </NavLink>
+
                     <NavLink
                       to={"/collections"}
                       className={({ isActive }) =>
@@ -61,6 +63,7 @@ const MobileNav = () => {
                     >
                       Collections
                     </NavLink>
+
                     <NavLink
                       to={"/explore"}
                       className={({ isActive }) =>
@@ -69,6 +72,7 @@ const MobileNav = () => {
                     >
                       Explore
                     </NavLink>
+
                     <NavLink
                       to={"/community"}
                       className={({ isActive }) =>

@@ -19,12 +19,7 @@ const Navigation = () => {
   });
 
   const isMobile = width < 640;
-  return (
-    <>
-      {isMobile ? <MobileNav /> : <Navbar />}
-      {}
-    </>
-  );
+  return <>{isMobile ? <MobileNav /> : <Navbar />}</>;
 };
 
 export default Navigation;
